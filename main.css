@@ -1,0 +1,31 @@
+:root {
+  --c-bg: ghostwhite;
+  --c-text: #333;
+  --c-accent: dodgerblue;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --c-bg: #111;
+    --c-text: #FAFAFA;
+  }
+}
+
+body {
+  font-family: sans-serif, system-ui;
+  margin: 1rem;
+  background-color: var(--c-bg);
+  color: var(--c-text);
+  line-height: 1.25rem;
+}
+
+h1 { margin: unset; }
+
+a {
+  text-decoration: none;
+  color: var(--c-accent);
+}
+
+a:hover { opacity: 0.75; }
+
+.mb1 { margin-bottom: 1rem; }
