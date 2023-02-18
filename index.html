@@ -11,15 +11,35 @@
 
   <title>Vadim Misko</title>
   <meta name="description" content="Software Engineer">
+
+  <style type="text/css">
+    @media (max-width: 600px) {
+      .bottom-links {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+      }
+      .bottom-links > span {
+        display: none;
+      }
+    }
+  </style>
 </head>
 
 <body>
   <h1 class="mb1">Vadim Misko</h1>
-  email: <a target="_blank" href="mailto:vadimmisko.dev@gmail.com">vadimmisko.dev@gmail.com</a>
-  <br>
-  github: <a target="_blank" href="https://github.com/vadimmisko" rel="noopener">@vadimmisko</a>
-  <br>
-  twitter: <a target="_blank" href="https://twitter.com/vadimxmisko" rel="noopener">@vadimxmisko</a>
+
+  <p>
+    Full-stack developer from Ukraine making abstract ideas into products. Passionate about exploring digital spaces, trying new technologies, staying lean, and using the platform.
+  </p>
+
+  <div class="bottom-links">
+    <a target="_blank" href="mailto:vadimmisko.dev@gmail.com">vadimmisko.dev@gmail.com</a>
+    <span>·</span>
+    <a target="_blank" href="https://github.com/vadimmisko" rel="noopener">Github</a>
+    <span>·</span>
+    <a target="_blank" href="https://twitter.com/vadimxmisko" rel="noopener">Twitter</a>
+  </div>
 
   <script>
     (function(a,b,c){var d=a.history,e=document,f=navigator||{},g=localStorage,
@@ -40,7 +60,6 @@
     a.ma={trackEvent:function o(r,s,t,u){return n("event",r,s,t,u)},
     trackException:function q(r,s){return n("exception",null,null,null,null,r,s)}}})
     (window,"UA-135518185-1",{anonymizeIp:true,colorDepth:true,characterSet:true,screenSize:true,language:true});
-    console.log('vadimmisko ⚡ 2019')
   </script>
 </body>
 
